@@ -5,7 +5,7 @@ option.add_argument("-incognito")
 # option.add_argument("--headless")
 # option.add_argument("disable-gpu")
 
-browser = webdriver.Chrome(executable_path='<chrome driver local location>', options=option)
+browser = webdriver.Chrome(executable_path='<local chrome driver location>', options=option)
 
 # Google Form Addresss
 browser.get("https://docs.google.com/forms/d/e/<form_ID>/viewform")
